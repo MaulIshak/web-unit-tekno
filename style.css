@@ -135,7 +135,7 @@ body {
 
 .container {
   margin: auto;
-  background-color: #eaeaea;
+  background-color: #ffffff;
   /* color: #2d336b; */
 }
 
@@ -148,7 +148,7 @@ nav {
   left: 0;
   backdrop-filter: blur(50px);
   top: 0;
-  background-color: #eaeaea;
+  background-color: #ffffff;
   z-index: 100;
 }
 .text-logo {
@@ -183,13 +183,13 @@ main {
 }
 
 main section {
-  background-color: #eaeaea;
+  background-color: #ffffff;
   margin-top: 0;
 }
 
 main section:nth-child(2n) {
   background-color: #3674b5;
-  color: #eaeaea;
+  color: #ffffff;
 }
 
 h1,
@@ -201,7 +201,7 @@ h2 {
   text-align: center;
   padding-bottom: 0;
   margin-bottom: 0;
-  padding: 150px 0;
+  padding: 200px 0;
 }
 .hero-content {
   width: 50%;
@@ -210,7 +210,7 @@ h2 {
 }
 
 .hero {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 svg {
@@ -236,13 +236,16 @@ td {
   width: 200px;
   border-radius: 50%;
   height: auto;
-  border: #eaeaea 2px dashed;
+  border: #ffffff 2px dashed;
 }
 
 #biodata .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#biodata table {
+  font-size: 1.2em;
 }
 #biodata h2 {
   margin-bottom: 10px;
@@ -257,6 +260,7 @@ main section .content .title {
 }
 
 main section .content p {
+  font-size: 1.2em;
   margin-top: 20px;
   line-height: 1.5;
 }
@@ -280,7 +284,7 @@ footer {
 
 .footer-content {
   text-align: center;
-  color: #eaeaea;
+  color: #ffffff;
   padding: 50px;
 }
 
@@ -314,6 +318,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .socmed-section {
@@ -357,16 +362,25 @@ footer {
   main {
     overflow: hidden;
   }
+  #biodata table {
+    font-size: 1em;
+  }
+  main section .content p {
+    font-size: 1em;
+  }
   .hero-content {
     width: 90%;
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
   main .content {
     box-sizing: border-box;
     width: 90%;
   }
-  nav {
+  .navbar {
     display: none;
+  }
+  .text-logo {
+    text-align: center;
   }
   #biodata .content {
     flex-direction: column-reverse;
@@ -374,8 +388,8 @@ footer {
   #reason .content {
     text-align: center;
   }
-  .cards {
+  /* .cards {
     flex-direction: column;
     align-items: center;
-  }
+  } */
 }

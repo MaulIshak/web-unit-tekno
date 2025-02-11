@@ -226,6 +226,11 @@ main .content {
 main .content h2 {
   font-size: 1.7rem;
 }
+.biodata-title {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 30px;
+}
 
 td {
   padding: 5px;
@@ -364,6 +369,9 @@ footer {
   }
   #biodata table {
     font-size: 1em;
+  }
+  #biodata img {
+    margin-bottom: 25px;
   }
   main section .content p {
     font-size: 0.95em;

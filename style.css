@@ -297,6 +297,13 @@ footer {
   text-align: center;
   font-size: 1.5rem;
 }
+#projects a {
+  color: #3674b5;
+  text-decoration: none;
+}
+#projects a:hover {
+  text-decoration: underline;
+}
 
 .card img {
   max-width: 200px;
